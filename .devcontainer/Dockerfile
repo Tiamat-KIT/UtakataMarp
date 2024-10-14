@@ -22,3 +22,5 @@ RUN if [ "debian" == "alpine" ] ; then apk update ; else apt-get update ; fi
 RUN if [ "debian" == "alpine" ] ; then apk add git ; else apt-get install -y git ; fi
 
 USER ${USER_NAME}
+
+RUN bun add -g @marp-team/marpit
