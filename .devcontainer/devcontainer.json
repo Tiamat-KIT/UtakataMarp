@@ -1,9 +1,9 @@
 {
-  "name": "utakata_web_bun_devcontainer",
+  "name": "utakata_marp_devcontainer",
   
   "dockerComposeFile": "compose.yaml",
   
-  "service": "utakata_web_bun_devcontainer",
+  "service": "utakata_marp_devcontainer",
   "workspaceFolder": "/workspace",
   "remoteUser": "utakata",
   "customizations": {
